@@ -42,7 +42,7 @@ object fPrincipal: TfPrincipal
       end
     end
     object ENTREGAS1: TMenuItem
-      Caption = '&ENTREGAS'
+      Caption = '&PEDIDOS'
       OnClick = ENTREGAS1Click
     end
     object FINANSEIRO1: TMenuItem

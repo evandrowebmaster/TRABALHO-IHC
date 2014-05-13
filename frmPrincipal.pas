@@ -35,7 +35,7 @@ var
 implementation
 
 uses frmClientes, frmFornecedores, frmProdutos, frmEntregas, frmBairro,
-  frmFinanceiro;
+  frmFinanceiro, frmPedidos;
 
 {$R *.dfm}
 
@@ -61,7 +61,7 @@ end;
 
 procedure TfPrincipal.ENTREGAS1Click(Sender: TObject);
 begin
-fEntregas.showmodal;
+fPedidos.showmodal;
 end;
 
 procedure TfPrincipal.FINANSEIRO1Click(Sender: TObject);

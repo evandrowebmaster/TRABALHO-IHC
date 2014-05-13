@@ -9,7 +9,9 @@ uses
   frmClientes in 'frmClientes.pas' {fClientes},
   frmEntregas in 'frmEntregas.pas' {fEntregas},
   frmProdutos in 'frmProdutos.pas' {fProdutos},
-  frmFornecedores in 'frmFornecedores.pas' {fFornecedores};
+  frmFornecedores in 'frmFornecedores.pas' {fFornecedores},
+  frmFinanceiro in 'frmFinanceiro.pas' {fFinanseiro},
+  frmPedidos in 'frmPedidos.pas' {PEDIDOS};
 
 {$R *.res}
 
@@ -23,5 +25,7 @@ begin
   Application.CreateForm(TfEntregas, fEntregas);
   Application.CreateForm(TfProdutos, fProdutos);
   Application.CreateForm(TfFornecedores, fFornecedores);
+  Application.CreateForm(TfFinanseiro, fFinanseiro);
+  Application.CreateForm(TPEDIDOS, PEDIDOS);
   Application.Run;
 end.

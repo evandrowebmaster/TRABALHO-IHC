@@ -1,4 +1,4 @@
-unit frmClientes;
+unit frmPedidos;
 
 interface
 
@@ -7,31 +7,37 @@ uses
   Dialogs, StdCtrls, DBCtrls, ExtCtrls, Grids, DBGrids;
 
 type
-  TfClientes = class(TForm)
+  TfPedidos = class(TForm)
     Label1: TLabel;
     Edit1: TEdit;
     Label2: TLabel;
     Edit2: TEdit;
+    RUA: TDBComboBox;
     Label3: TLabel;
-    Edit3: TEdit;
+    BAIRRO: TComboBox;
     Label4: TLabel;
-    Edit4: TEdit;
     Label5: TLabel;
-    Edit5: TEdit;
-    ComboBox1: TComboBox;
-    Label6: TLabel;
+    Edit3: TEdit;
     DBGrid1: TDBGrid;
     DBNavigator1: TDBNavigator;
+    Label6: TLabel;
+    Edit4: TEdit;
     Label7: TLabel;
-    Edit6: TEdit;
+    Edit5: TEdit;
     Label8: TLabel;
-    Edit7: TEdit;
+    Edit6: TEdit;
     Label9: TLabel;
-    Edit8: TEdit;
+    Edit7: TEdit;
     Label10: TLabel;
+    Edit8: TEdit;
+    Label11: TLabel;
     Edit9: TEdit;
-    DBCheckBox1: TDBCheckBox;
-    DBCheckBox2: TDBCheckBox;
+    Label12: TLabel;
+    TIPO: TComboBox;
+    Label13: TLabel;
+    Edit10: TEdit;
+    Label14: TLabel;
+    Edit11: TEdit;
   private
     { Private declarations }
   public
@@ -39,7 +45,7 @@ type
   end;
 
 var
-  fClientes: TfClientes;
+  fPedidos: TfPedidos;
 
 implementation
 
